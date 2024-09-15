@@ -1,0 +1,107 @@
+html {
+  background-color: rgba(255, 99, 71, 0.5);
+  /*Trying to keep text more accessible.*/
+  font-size: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+
+  /*Structuring*/
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: space-between;
+
+  /*Coloring*/
+  background-color: rgba(36, 21, 18, 0.733);
+  color: rgba(255, 255, 255, 1);
+
+  /*Sizing*/
+  height: 6em;
+}
+
+main {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+footer {
+  position: fixed;
+
+  /*Structuring*/
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*Coloring*/
+  background-color: rgba(36, 21, 18, 0.733);
+  color: rgba(255, 255, 255, 1);
+
+  /*Sizing*/
+  height: 6em;
+}
+
+/*Image Section*/
+
+/*Images specifically in sections, such found in about and portfolio*/
+section > img {
+  height: 8em;
+  width: 8em;
+}
+/*Image on the main page of the person*/
+#profilePicture {
+  height: 9em;
+  width: 9em;
+}
+
+/*Button things*/
+button {
+  background-color: rgba(255, 99, 71, 0.5);
+  color: white;
+  cursor: pointer;
+}
+
+/*Main page text*/
+#motto {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#shortDescription {
+  font-size: 1.5em;
+}
+
+#inspirationalText {
+  font-style: italic;
+  font-size: 2em;
+}
+
+section > h3 {
+  font-weight: bold;
+}
+
+#aboutHobby1,
+#aboutHobby3,
+#projectTwo {
+  text-align: left;
+}
+#aboutHobby2,
+#projectOne,
+#projectThree {
+  text-align: right;
+}
+
+#aboutHobby1 > img,
+#aboutHobby3 > img,
+#projectTwo > img {
+  margin-right: 0em;
+}
+
+#aboutHobby2 > img,
+#projectOne > img,
+#projectThree > img {
+  margin-left: 0em;
+}
