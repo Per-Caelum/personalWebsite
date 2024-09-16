@@ -12,15 +12,16 @@ nav {
   /*Structuring*/
   left: 0;
   right: 0;
+  top: 0;
   align-items: center;
   justify-content: space-between;
 
   /*Coloring*/
-  background-color: rgba(36, 21, 18, 0.733);
+  background-color: rgba(36, 21, 18, 1);
   color: rgba(255, 255, 255, 1);
 
   /*Sizing*/
-  height: 6em;
+  height: 4em;
 }
 
 main {
@@ -36,12 +37,13 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
+
   /*Coloring*/
-  background-color: rgba(36, 21, 18, 0.733);
+  background-color: rgba(36, 21, 18, 1);
   color: rgba(255, 255, 255, 1);
 
   /*Sizing*/
-  height: 6em;
+  height: 4em;
 }
 
 /*Image Section*/
