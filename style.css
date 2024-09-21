@@ -25,8 +25,8 @@ nav {
 }
 
 main {
-  margin-left: 2em;
-  margin-right: 2em;
+  margin: 5em 2em 5em auto;
+  height: 100%;
 }
 
 footer {
@@ -85,25 +85,50 @@ section > h3 {
   font-weight: bold;
 }
 
-#aboutHobby1,
-#aboutHobby3,
-#projectTwo {
+/* Portfolio + AboutMe page */
+section > h3 {
+  text-align: center;
+}
+
+/* Left-align */
+.hobby {
   text-align: left;
 }
-#aboutHobby2,
-#projectOne,
-#projectThree {
+.hobby > img {
+  float: left;
+  padding-right: 1em;
+}
+
+.project:nth-child(2) {
+  text-align: left !important;
+}
+.project:nth-child(2) > img {
+  float: left !important;
+  padding-right: 1em;
+}
+
+/* Right-align */
+.hobby:nth-child(2) {
+  text-align: right !important;
+}
+
+.hobby:nth-child(2) > img {
+  float: right !important;
+  padding-left: 1em;
+}
+
+.project {
   text-align: right;
 }
 
-#aboutHobby1 > img,
-#aboutHobby3 > img,
-#projectTwo > img {
-  margin-right: 0em;
+.project > img {
+  float: right;
+  padding-left: 1em;
 }
 
-#aboutHobby2 > img,
-#projectOne > img,
-#projectThree > img {
-  margin-left: 0em;
+/* Success Page */
+#success {
+  text-align: center;
+  justify-content: center;
+  height: 100%;
 }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script rel="script" src="javascript.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <h2>Contact</h2>
+      <div>
+        <a href="index.html">Main</a>
+        <a href="about.html">About Me</a>
+        <a href="portfolio.html">My Portfolio</a>
+        <a class="currentPage" href="#">Contact Me</a>
+      </div>
+    </nav>
+    <main>
+      <form action="success.html">
+        <div class="name">
+          <label for="name">Full Name: </label>
+          <input type="name" aria-describedby="nameHelpId" />
+          <small id="nameHelpId" class="form-text text-muted"
+            >Input your full name here.</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            class="form-control"
+            name=""
+            id=""
+            aria-describedby="emailHelpId"
+            placeholder=""
+          />
+          <small id="emailHelpId" class="form-text text-muted"
+            >Enter your e-mail here.</small
+          >
+        </div>
+        <div class="message">
+          <label for="message">Message: </label>
+          <input
+            type=""
+            class="form-control"
+            id="message"
+            aria-describedby="messageHelpId"
+          />
+          <small id="messageHelpId" class="form-text text-muted"
+            >Please write your message here.</small
+          >
+        </div>
+        <button id="submit" type="submit" class="btn btn-primary">
+          Submit
+        </button>
+      </form>
+    </main>
+    <footer>
+      <button onclick="doHTMLThing()">Click me for JavaScript!</button>
+      <div id="footerText">This text will change</div>
+    </footer>
+  </body>
+</html>
